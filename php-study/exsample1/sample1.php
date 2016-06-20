@@ -4,7 +4,7 @@ require ('testFunctionInclude2.php');
 require ('testFunctionInclude3.php');
 
 /*
- * £²¤Ä¤Î¿ô»ú¤ò³İ¤±»»¤¹£ò
+ * ï¼’ã¤ã®æ•°å­—ã‚’æ›ã‘ç®—ã™ã‚‹
  *
  */
 echo "ANSWER=".testFnPiyo( 7, 8 ).PHP_EOL;
