@@ -1,4 +1,4 @@
 <?php
-$base_path = __DIR__ ;
-echo "B=".$base_path;
+$base_path = dirname(__FILE__)  ;
+echo "test=".$base_path;
 ?>
