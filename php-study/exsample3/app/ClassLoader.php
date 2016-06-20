@@ -40,6 +40,7 @@ class ClassLoader
             self::$dirs = array(
                 // 【重要】ここに読み込んでほしいディレクトリを足していきます sugitani
                 $base . '/classes',
+                '/home/sugitani/public_html/hikitsugi-2016/php-study/exsample3/app/classes',
             );
         }
 
