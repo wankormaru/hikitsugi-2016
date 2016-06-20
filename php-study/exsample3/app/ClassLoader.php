@@ -36,10 +36,10 @@ class ClassLoader
     private static function directories()
     {
         if (empty(self::$dirs)) {
-            $base = $_SERVER['DOCUMENT_ROOT'].BASE_PATH;
+            $base = $base_path;
             self::$dirs = array(
                 // 【重要】ここに読み込んでほしいディレクトリを足していきます
-                $base . '/app/classes',
+                $base . '/classes',
             );
         }
 

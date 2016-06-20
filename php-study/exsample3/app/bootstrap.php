@@ -1,6 +1,6 @@
 <?php 
 
-$base_path = __DIR__;
+$base_path = dirname(__FILE__)  ;
 require_once 'ClassLoader.php';
 
 
