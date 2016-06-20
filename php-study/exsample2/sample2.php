@@ -6,6 +6,7 @@ require ('clsFunction3.php');
 /*
  *  ２つの数値を掛け算する
  *  クラス編
+ *  sugitani
  */
  
 $objFunction1 = new clsFunction1;
