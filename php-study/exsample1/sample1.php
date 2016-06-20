@@ -3,6 +3,10 @@ require ('testFunctionInclude1.php');
 require ('testFunctionInclude2.php');
 require ('testFunctionInclude3.php');
 
+/*
+ * £²¤Ä¤Î¿ô»ú¤ò³Ý¤±»»¤¹£ò
+ *
+ */
 echo "ANSWER=".testFnPiyo( 7, 8 ).PHP_EOL;
 
 
