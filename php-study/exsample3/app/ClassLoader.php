@@ -36,11 +36,10 @@ class ClassLoader
     private static function directories()
     {
         if (empty(self::$dirs)) {
-            $base = $base_path;
+            $base = $_SERVER['DOCUMENT_ROOT'].'/hikitsugi-2016/php-study/exsample3/app';
             self::$dirs = array(
                 // 【重要】ここに読み込んでほしいディレクトリを足していきます sugitani
                 $base . '/classes',
-                '/home/sugitani/public_html/hikitsugi-2016/php-study/exsample3/app/classes',
             );
         }
 
