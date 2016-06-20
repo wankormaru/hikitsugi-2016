@@ -38,7 +38,7 @@ class ClassLoader
         if (empty(self::$dirs)) {
             $base = $base_path;
             self::$dirs = array(
-                // 【重要】ここに読み込んでほしいディレクトリを足していきます
+                // 【重要】ここに読み込んでほしいディレクトリを足していきます sugitani
                 $base . '/classes',
             );
         }
